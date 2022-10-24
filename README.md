@@ -1,6 +1,7 @@
 # TS_BASE with Emotion
 
 Typescript のベースプロジェクト
+Style Emotion
 
 ## Getting Started
 
