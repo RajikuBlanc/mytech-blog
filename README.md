@@ -1,4 +1,4 @@
-# TS_BASE
+# TS_BASE with Emotion
 
 Typescript のベースプロジェクト
 
