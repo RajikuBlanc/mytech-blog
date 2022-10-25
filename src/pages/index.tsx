@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import * as styles from '../styles/index.styles';
+import ReactIcon from '../../public/react.svg';
 
 const Home: NextPage = () => {
   // CSS
@@ -66,6 +67,7 @@ const Home: NextPage = () => {
     }
   `;
 
+  // TSX
   return (
     <div css={container}>
       <Head>
@@ -78,6 +80,14 @@ const Home: NextPage = () => {
         <h1 css={title}>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
+        <div
+          css={css`
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+          `}
+        >
+          <ReactIcon />
+        </div>
 
         <p css={description}>
           Get started by editing <code css={styles.code}>pages/index.tsx</code>
