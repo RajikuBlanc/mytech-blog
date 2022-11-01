@@ -1,5 +1,11 @@
 import { css } from '@emotion/react';
 
+export const center = css`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const code = css`
   background: #fafafa;
   border-radius: 5px;
