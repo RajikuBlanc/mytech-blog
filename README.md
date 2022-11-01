@@ -1,14 +1,6 @@
-# TS_BASE with Emotion
+# My Teck Blog
 
-Typescript のベースプロジェクト
-Style Emotion
+[旧ブログ]{https://next-myblog.vercel.app/}の再構築
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+- シンプルなレイアウトに修正する
+- microCMSではなく、markdownで書けるように修正
